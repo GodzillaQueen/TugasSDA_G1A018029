@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+typedef int angka;
+typedef char huruf;
+int main(){
+angka umur;
+huruf a;
+huruf nama[10];
+printf(“masukkan umur : “);scanf(“%d”,&umur);
+printf(“Anda Sekarang berumur %d”,umur);
+printf(“\nmasukkan huruf : “);a=getche();
+printf(“\nHuruf anda %c”,a);
+printf(“\nmasukkan nama : “);scanf(“%s”,nama);
+printf(“Nama anda adalah %s”,nama);
+getch();
+system(“PAUSE”);
+}
+
+// Program diatas adalah contoh sederhana penggunaan ADT,program ini meminta user untuk 
+mengimput nama dan umur user,lalu setelah mengimput data,maka sistem akan menyimpan data,lalu
+memanggil data sesuai yang di inputkan tadi."//
